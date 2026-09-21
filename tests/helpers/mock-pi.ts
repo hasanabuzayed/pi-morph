@@ -118,6 +118,8 @@ export function createMockPi(opts: MockPiOptions = {}): MockPi {
     on(event: string, handler: any) {
       if (!eventHandlers.has(event)) eventHandlers.set(event, []);
       eventHandlers.get(event)!.push(handler);
+      // pi >= 0.86: pi.on() returns an unsubscribe function.
+      return () => {};
     },
     registerCommand(name: string, config: any) {
       commandHandlers.push({ name, config });
