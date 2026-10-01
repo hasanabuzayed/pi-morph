@@ -11,6 +11,10 @@ _10,500+ tok/s code editing, agentic search, and 25,000+ tok/s compression for [
 
 </div>
 
+## Pi 1.0 compatibility (1.0.13)
+
+Development SDKs are pinned to **1.0.0**; host-provided dependencies remain wildcard peers. Run `bun run test:pi` for offline real-host registrations, prompt/tool loadouts, nested calls, reload and shutdown. Set `PI1_HOST_PACKAGE` to an installed Pi package directory and `PI1_HOST_ENTRY=bundle` to check its bundled runtime.
+
 ---
 
 ---
