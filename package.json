@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/morphllm/pi-morph-plugin"
+    "url": "git+https://github.com/monotykamary/pi-morph.git"
   },
   "pi": {
     "extensions": [
