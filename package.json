@@ -1,6 +1,6 @@
 {
   "name": "pi-morph-plugin",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction",
   "type": "module",
   "main": "extensions/index.ts",
