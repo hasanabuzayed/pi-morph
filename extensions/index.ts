@@ -71,7 +71,7 @@ const COMPACT_RATIO = parseFloat(process.env.MORPH_COMPACT_RATIO || '0.3');
 const COMPACT_PRESERVE_RECENT = parseInt(process.env.MORPH_COMPACT_PRESERVE_RECENT || '1', 10);
 
 /** Plugin version */
-const PLUGIN_VERSION = '1.0.13';
+const PLUGIN_VERSION = '1.0.18';
 
 // ---------------------------------------------------------------------------
 // Deferred SDK client initialization
